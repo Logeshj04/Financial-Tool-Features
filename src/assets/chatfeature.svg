@@ -1,0 +1,144 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="transparent" rx="10" ry="10"/>
+  
+  <!-- Left Section: Chat Interface -->
+  <rect x="40" y="40" width="320" height="420" fill="white" rx="15" ry="15" stroke="#e6e6e6" stroke-width="1"/>
+  
+  <!-- Chat Header -->
+  <rect x="40" y="40" width="320" height="60" fill="white" rx="15" ry="15" stroke="#e6e6e6" stroke-width="1"/>
+  <text x="70" y="77" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">FinReveal Assistant</text>
+  <circle cx="320" cy="70" r="8" fill="#4fd1c5" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Assistant Message -->
+  <rect x="70" y="120" width="250" height="60" fill="#f0f9ff" rx="10" ry="10"/>
+  <text x="75" y="145" font-family="Arial, sans-serif" font-size="12" fill="#333">How can I help with your financial data today?</text>
+  <text x="75" y="165" font-family="Arial, sans-serif" font-size="12" fill="#718096">10:30 AM</text>
+  
+  <!-- User Message -->
+  <rect x="100" y="200" width="220" height="60" fill="#4fd1c5" rx="10" ry="10"/>
+  <text x="120" y="225" font-family="Arial, sans-serif" font-size="13" fill="white">Show me sales trends for Apparel</text>
+  <text x="310" y="245" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="end">10:31 AM</text>
+  
+  <!-- Typing Indicator -->
+  <rect x="70" y="280" width="100" height="40" fill="#f0f9ff" rx="10" ry="10"/>
+  <circle cx="95" cy="300" r="4" fill="#4299e1">
+    <animate attributeName="cy" values="300;296;300" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="300" r="4" fill="#4299e1">
+    <animate attributeName="cy" values="300;296;300" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="125" cy="300" r="4" fill="#4299e1">
+    <animate attributeName="cy" values="300;296;300" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Chat Input Field -->
+  <rect x="60" y="380" width="280" height="50" fill="white" rx="25" ry="25" stroke="#e6e6e6" stroke-width="1"/>
+  <text x="90" y="410" font-family="Arial, sans-serif" font-size="13" fill="#a0aec0">Ask a question...</text>
+  <circle cx="310" cy="405" r="15" fill="#4fd1c5"/>
+  <path d="M305 405 L315 405 M310 400 L310 410" stroke="white" stroke-width="2"/>
+  
+  <!-- Right Section: AI Response -->
+  <rect x="400" y="40" width="360" height="420" fill="white" rx="15" ry="15" stroke="#e6e6e6" stroke-width="1"/>
+  
+  <!-- Response Header -->
+  <rect x="400" y="40" width="360" height="60" fill="white" rx="15" ry="15" stroke="#e6e6e6" stroke-width="1"/>
+  <text x="430" y="77" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">Apparel Sales Trends</text>
+  <circle cx="730" cy="70" r="15" fill="#f0f9ff" stroke="#4fd1c5" stroke-width="1"/>
+  <path d="M724 70 L736 70 M730 64 L730 76" stroke="#4fd1c5" stroke-width="2"/>
+  
+  <!-- Chart Area -->
+  <rect x="420" y="120" width="320" height="180" fill="#f8fafc" rx="8" ry="8"/>
+  
+  <!-- Chart Grid Lines -->
+  <line x1="420" y1="210" x2="740" y2="210" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="420" y1="165" x2="740" y2="165" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="420" y1="255" x2="740" y2="255" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Chart Y-Axis Labels -->
+  <text x="425" y="165" font-family="Arial, sans-serif" font-size="10" fill="#718096">$200K</text>
+  <text x="425" y="210" font-family="Arial, sans-serif" font-size="10" fill="#718096">$100K</text>
+  <text x="425" y="255" font-family="Arial, sans-serif" font-size="10" fill="#718096">$0</text>
+  
+  <!-- Chart X-Axis Labels -->
+  <text x="450" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Jan</text>
+  <text x="490" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Feb</text>
+  <text x="530" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Mar</text>
+  <text x="570" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Apr</text>
+  <text x="610" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">May</text>
+  <text x="650" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Jun</text>
+  <text x="690" y="275" font-family="Arial, sans-serif" font-size="10" fill="#718096">Jul</text>
+  
+  <!-- Chart Line -->
+  <path d="M450 230 L490 210 L530 225 L570 190 L610 145 L650 175 L690 205" 
+      stroke="#4fd1c5" stroke-width="3" fill="none"/>
+  
+  <!-- Chart Data Points -->
+  <circle cx="450" cy="230" r="5" fill="#4fd1c5"/>
+  <circle cx="490" cy="210" r="5" fill="#4fd1c5"/>
+  <circle cx="530" cy="225" r="5" fill="#4fd1c5"/>
+  <circle cx="570" cy="190" r="5" fill="#4fd1c5"/>
+  <circle cx="610" cy="145" r="5" fill="#4fd1c5">
+    <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="175" r="5" fill="#4fd1c5"/>
+  <circle cx="690" cy="205" r="5" fill="#4fd1c5"/>
+  
+  <!-- Chart Area Fill -->
+  <path d="M450 230 L490 210 L530 225 L570 190 L610 145 L650 175 L690 205 L690 255 L450 255 Z" 
+      fill="url(#chartGradient)" opacity="0.3"/>
+  
+  <!-- Chart Gradients -->
+  <defs>
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4fd1c5" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#4fd1c5" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Insights Cards -->
+  <rect x="420" y="320" width="150" height="120" fill="white" rx="8" ry="8" stroke="#e6e6e6" stroke-width="1"/>
+  <text x="440" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Sales Summary</text>
+  <text x="430" y="370" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" width="130">Sales peaked in May </text>
+  <text x="430" y="383" font-family="Arial, sans-serif" font-size="12" fill="#4a5568" width="130">with a 34% increase.</text>
+  <text x="430" y="405" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">Current trend shows 12%</text>
+  <text x="430" y="418" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">recovery from June dip.</text>
+  
+  <!-- Metrics Card -->
+  <rect x="590" y="320" width="150" height="120" fill="white" rx="8" ry="8" stroke="#e6e6e6" stroke-width="1"/>
+  <text x="610" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Key Metrics</text>
+  
+  <!-- Metric 1 -->
+  <circle cx="615" cy="370" r="10" fill="#f0f9ff"/>
+  <path d="M611 370 L615 374 L619 366" stroke="#4299e1" stroke-width="2" fill="none"/>
+  <text x="630" y="375" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">YTD Growth: 18%</text>
+  
+  <!-- Metric 2 -->
+  <circle cx="615" cy="400" r="10" fill="#e6fffa"/>
+  <path d="M610 400 L620 400 M615 395 L615 405" stroke="#4fd1c5" stroke-width="2"/>
+  <text x="630" y="405" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">Forecast: +7%</text>
+  
+  <!-- Futuristic Elements -->
+  <!-- Glowing Outlines -->
+  <rect x="40" y="40" width="320" height="420" fill="none" rx="15" ry="15" stroke="#4fd1c5" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="400" y="40" width="360" height="420" fill="none" rx="15" ry="15" stroke="#4299e1" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Connection Lines -->
+  <path d="M360 200 Q380 200, 400 200" stroke="#4fd1c5" stroke-width="2" stroke-dasharray="4,4"/>
+  <circle cx="380" cy="200" r="3" fill="#4fd1c5">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- FinReveal Logo -->
+  <text x="50" y="480" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4a5568">Fin<tspan fill="#4fd1c5">Reveal</tspan></text>
+  
+  <!-- Tagline -->
+  <text x="720" y="480" font-family="Arial, sans-serif" font-size="12" fill="#718096" text-anchor="end">AI-Powered Financial Insights</text>
+</svg>
